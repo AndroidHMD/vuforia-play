@@ -181,6 +181,14 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11400002, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
+      propertyPath: mDataSetsToLoad.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
+      propertyPath: mDataSetsToActivate.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
       propertyPath: m_LocalPosition.x
       value: 1.1751323
@@ -216,6 +224,14 @@ Prefab:
     - target: {fileID: 11400006, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
       propertyPath: VuforiaLicenseKey
       value: AZx2eiL/////AAAAARc5B1jB1Ey+qJ/zNRnIk2cp5BwoKB9YWfVPzjAe2enZRPj97+Vt2KWz44IXc6NyxfHV6Doq0mUGGeMxGKtMOgKW3NTEViIekpoBFHkYau6JRoBNLX9VBAe/jXURB4Z69Jp/joiM39gG58BuSRcsm4wQBmckdb2l9C+RvcPKEC1rtfNi0NBWHBQGSrkPnNNLhareM78N8iFd5VgNKreuRGvoqpFHyrNTTFP+8yix4IU/bwSp7IuRmLWas8KPI/GVqgPN34DEpPwUfk9qnB8QTeBd/JHOYlHAHumuD4o/p5zWvgKRd5pi6XdOs/BwMuXpR4UzSJCMzT35VybBg5lY+Adyz4ZkHLvs57wTv1AZDapd
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
+      propertyPath: mDataSetsToLoad.Array.data[0]
+      value: Image_Targets
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
+      propertyPath: mDataSetsToActivate.Array.data[0]
+      value: Image_Targets
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
