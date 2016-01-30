@@ -116,7 +116,7 @@ public class CardboardEditor : Editor {
   }
 
   private static void CheckGraphicsAPI() {
-    if (EditorUserBuildSettings.activeBuildTarget == BuildTarget.iPhone
+    if (EditorUserBuildSettings.activeBuildTarget == BuildTarget.iOS
         && !Application.isPlaying
         && Object.FindObjectOfType<Cardboard>() != null
         && PlayerSettings.targetIOSGraphics != TargetIOSGraphics.OpenGLES_2_0
