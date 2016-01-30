@@ -94,7 +94,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 481240, guid: 13fcd8723a996bb448983fcb7339a733, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 40
+      value: -63.4
       objectReference: {fileID: 0}
     - target: {fileID: 481240, guid: 13fcd8723a996bb448983fcb7339a733, type: 2}
       propertyPath: m_LocalPosition.y
@@ -102,7 +102,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 481240, guid: 13fcd8723a996bb448983fcb7339a733, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 30
+      value: 48.2
       objectReference: {fileID: 0}
     - target: {fileID: 481240, guid: 13fcd8723a996bb448983fcb7339a733, type: 2}
       propertyPath: m_LocalRotation.x
@@ -110,7 +110,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 481240, guid: 13fcd8723a996bb448983fcb7339a733, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.6427877
+      value: 0.9063079
       objectReference: {fileID: 0}
     - target: {fileID: 481240, guid: 13fcd8723a996bb448983fcb7339a733, type: 2}
       propertyPath: m_LocalRotation.z
@@ -118,7 +118,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 481240, guid: 13fcd8723a996bb448983fcb7339a733, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.7660444
+      value: 0.42261818
       objectReference: {fileID: 0}
     - target: {fileID: 481240, guid: 13fcd8723a996bb448983fcb7339a733, type: 2}
       propertyPath: m_RootOrder
@@ -126,15 +126,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 481240, guid: 13fcd8723a996bb448983fcb7339a733, type: 2}
       propertyPath: m_LocalScale.x
-      value: 50
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 481240, guid: 13fcd8723a996bb448983fcb7339a733, type: 2}
       propertyPath: m_LocalScale.y
-      value: 50
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 481240, guid: 13fcd8723a996bb448983fcb7339a733, type: 2}
       propertyPath: m_LocalScale.z
-      value: 50
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 13744644, guid: 13fcd8723a996bb448983fcb7339a733, type: 2}
       propertyPath: m_AABB.m_Center.x
@@ -163,7 +163,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13fcd8723a996bb448983fcb7339a733, type: 2}
   m_IsPrefabParent: 0
---- !u!43 &589420353
+--- !u!43 &146453120
 Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -308,7 +308,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: b8b03d395f5734e98af91ccf44f9bf47, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 90
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: b8b03d395f5734e98af91ccf44f9bf47, type: 2}
       propertyPath: m_LocalRotation.x
@@ -352,19 +352,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2000002, guid: b8b03d395f5734e98af91ccf44f9bf47, type: 2}
       propertyPath: near clip plane
-      value: 2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2000002, guid: b8b03d395f5734e98af91ccf44f9bf47, type: 2}
       propertyPath: far clip plane
-      value: 5000
+      value: 3000
       objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: b8b03d395f5734e98af91ccf44f9bf47, type: 2}
       propertyPath: near clip plane
-      value: 2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: b8b03d395f5734e98af91ccf44f9bf47, type: 2}
       propertyPath: far clip plane
-      value: 5000
+      value: 3000
       objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: b8b03d395f5734e98af91ccf44f9bf47, type: 2}
       propertyPath: m_ClearFlags
@@ -581,7 +581,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 90
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
       propertyPath: m_LocalRotation.x
@@ -666,6 +666,14 @@ Prefab:
     - target: {fileID: 11400006, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
       propertyPath: mHeadsetID
       value: Cardboard
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
+      propertyPath: near clip plane
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
+      propertyPath: far clip plane
+      value: 3000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
@@ -795,7 +803,7 @@ Prefab:
     - target: {fileID: 3300000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 589420353}
+      objectReference: {fileID: 146453120}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mTrackableName
       value: stones_hires
@@ -815,7 +823,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1581767965}
+      objectReference: {fileID: 1392048152}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalScale.x
       value: 50
@@ -835,6 +843,34 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
   m_PrefabInternal: {fileID: 1302723608}
+--- !u!21 &1392048152
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: stones_hires_scaledMaterial
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 14918c9f23994f6197c09ec6853d456c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &1449838811
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,31 +999,3 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
   m_IsPrefabParent: 0
---- !u!21 &1581767965
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: stones_hires_scaledMaterial
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  m_SavedProperties:
-    serializedVersion: 2
-    m_TexEnvs:
-      data:
-        first:
-          name: _MainTex
-        second:
-          m_Texture: {fileID: 2800000, guid: 14918c9f23994f6197c09ec6853d456c, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-    m_Floats: {}
-    m_Colors:
-      data:
-        first:
-          name: _Color
-        second: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
