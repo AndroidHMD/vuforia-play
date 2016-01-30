@@ -19,9 +19,9 @@ public class AndroidVRDevice : VRDevice {
   private AndroidJavaObject activityListener;
 
   public override void Init() {
-#if UNITY_5
+//#if UNITY_5 //disable for vuforia compatibility https://developer.vuforia.com/library/articles/Solution/Integrating-Cardboard-SDK-050
     debugDisableNativeDistortion = true;
-#endif
+//#endif	  //disable for vuforia compatibility
     base.Init();
     ConnectToActivity();
   }
